@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Great+Vibes&family=Inter:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-cursive: "Great Vibes", cursive;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: #fdf2f8;
+  overflow: hidden;
+}
+
+.romantic-gradient {
+  background: radial-gradient(circle at center, #fff1f2 0%, #fce7f3 100%);
+}
+
+.cake-slice {
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.gift-drop {
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+}
